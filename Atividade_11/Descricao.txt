@@ -1,0 +1,22 @@
+Exercise: World of Zuul 2
+Objective:
+Understand the concepts of Cohesion and Coupling and how they contribute to the quality of a Java program.
+
+Assignment Details:
+Follow the instructions on the presentation:
+
+Cohesion and coupling in Java.
+
+Instructions:
+If we want to add something to a room, it is easier if only the Room class must describe what is inside a room:
+public String getLongDescription() {
+        return "You are " + description + ".\n" + getExitString();   
+}
+Edit other parts that describe a room, such as printLocationInfo method (Game class).
+Create the command look. Make it, avoiding implicit coupling between classes.
+Add 1 item to each room. Use a solution that will not reduce cohesion of Room.
+Write a back method that returns to the last room. Write a method to test it that uses the assert command or jUnit.
+ Implement the CommandWord class as an enum. Use a value for each command word and one more for unknown commands.
+Submit your Java code as a jar or zip file.
+Estimated Time: 50 minutes
+This assignment is designed based on the concepts covered in Chapter 8 of the book Objects First with Java.
