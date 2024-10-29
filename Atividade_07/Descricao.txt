@@ -1,0 +1,42 @@
+Assignment Title: OneRowNim Game GUI
+Objective:
+Enhance your understanding of Java Swing by creating a GUI for the OneRowNim game, which will interact with users through a defined interface. This task will help you practice integrating business logic with a graphical user interface effectively.
+
+Instructions:
+Download and run the OwnRowNim game:
+
+The attached file has the classes and interfaces to run the OwnRowNim game:
+IGame: Game interface.
+CLUIPlayableGame: Contains two methods that are used to define a standard form of communication between the CLUI and the game
+IPlayer: Defines how a move is made.
+UserInterface: Interface to the game user interface.
+If you hadn't done it yet, read, understand and run the program. 
+Run it and test it.
+Interface Implementation:
+Ideally, to create a GUI for this game, we would implement the given UserInterface using a GUI implementation. However, the design of this interface do not support an event-driven approach. Do you know why? Answer in the code comments.
+So, we will have to refactor the code to add to OwnRowNim a method(s) to receive a user input and play one game round. Use the play() method as a start point. It has a game loop, but now the game is controlled by the actions of the users in the GUI (not the while loop).
+Tip: In each iteration of the while loop, one player plays (sometimes a computer player). Make the two types of interactions the same, but, for the computer turn, already put the stick numbers in the proper GUI field and lock any changes from the user.
+
+Design the GUI (OneRowNimGUI):
+Create a OneRowNimGUI class extending JFrame for the main window.
+This class creates a OneRowNim instance.
+Include a JTextField or JLabel to display messages and prompts to the user.
+Add JButton components for user actions like "Take Sticks" and "Reset Game".
+Use JTextField to accept the number of sticks a user wants to take.
+Arrange the components using JPanels and the JFrame's default layout manager (BorderLayout).
+Integrate the OneRowNim Class instance with the GUI interface:
+Your GUI class should interact with an instance of OneRowNim to update the game state based on user actions and display results.
+Action Handling:
+Implement action listeners for the buttons to respond to user inputs.
+Ensure the GUI updates reflect the current state of the game and any messages that need to be reported to the user.
+Test your implementation
+Use the game player you developed.
+Deliverables:
+Complete source code of your OneRowNimGUI, OneRowNim, and any supporting classes in a zip file.
+A report, as a javadoc comment (in the OneRowNimGUI class documentation), explaining your design decisions how you implemented and any challenges you encountered.
+Evaluation Criteria:
+Functionality: The GUI must accurately handle game logic and user interactions.
+Code Quality: Clear, well-commented, and adhering to Java coding standards.
+User Experience: The GUI should be intuitive and responsive
+This assignment provides a comprehensive opportunity to apply GUI programming concepts while ensuring a functional integration with game logic, reinforcing your skills in both areas.
+
