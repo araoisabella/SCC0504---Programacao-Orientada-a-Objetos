@@ -1,0 +1,35 @@
+Assignment: Create a OneRowNim player
+Objective:
+Create a OneRowNim player.
+
+Background:
+Interfaces enable you to specify a contract for classes to implement, ensuring they provide implementations for all methods defined in the interface.
+
+Task Description:
+Read and run the OwnRowNim game:
+
+The attached file has the classes and interfaces to run the OwnRowNim game:
+IGame: Game interface.
+CLUIPlayableGame: Contains two methods that are used to define a standard form of communication between the CLUI and the game
+IPlayer: Defines how a move is made.
+UserInterface: Interface to the game user interface.
+Read and understand the program. 
+Run it and test it.
+Create a new player:
+
+Create a new player class called NimPlayerSuper. It has to play the game against the NimPlayerBad. Do not use any player implementation from the text book.
+Test your implementation against the NimPlayerBad.
+Who's best?
+Create a showWinner method in the UserInterface:
+
+Create a new method void reportWinner(String winner) in the UserInterface interface. It shows the winner's name with prominence: >>>>>>>> WINNER is PLAYER 1 <<<<<<<<
+Requirements:
+Ensure your code is properly commented to explain the structure and functionality.
+Provide clear output.
+Submission Guidelines:
+Submit your .java files containing the code.
+Assessment Criteria:
+Correct use of interfaces.
+Proper implementation of methods in concrete classes.
+Code readability, organization, and comments.
+Accurate output.
