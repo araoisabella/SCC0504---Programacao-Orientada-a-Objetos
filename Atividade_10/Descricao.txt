@@ -1,0 +1,24 @@
+Assignment: World of Zuul 1
+
+Objective:
+Understand the concepts of Cohesion and Coupling and how they contribute to the quality of a Java program.
+
+Assignment Details:
+Follow the instructions on the presentation:
+
+Cohesion and coupling in Java.
+
+Instructions:
+Annotate about each class goal using javaDoc.
+Create a printLocationInfo method that prints the current location. Use it in the printWelcome e goRoom methods.
+Add two new directions to the game to change floors: up and down.
+Make the Room fields private.
+Create in Room the getExit(String Direction) method to get the exits.
+Change the printLocation method so its information is generated in Room, using the String getExitString() method.
+Rewrite Room to use a HashMap to represent the exits (do not forget the up and down commands):
+private HashMap<String, Room> exits;
+Change setExits(…) para setExit(String direction, Room neighbor)
+Submit your Java code as a jar or zip file.
+Estimated Time: 50 minutes
+This assignment is designed based on the concepts covered in Chapter 8 of the book Objects First with Java.
+
